@@ -1,6 +1,6 @@
 FROM airhacks/java-s2i
 LABEL maintainer="Adam Bien, adam-bien.com" description="Payara5 Micro S2I for OpenShift"
-ENV VERSION 5.192
+ENV VERSION 5.194
 ENV PAYARA_JAR payara-micro-${VERSION}.jar
 ENV INSTALL_DIR /opt
 ENV LIB_DIR ${INSTALL_DIR}/lib
